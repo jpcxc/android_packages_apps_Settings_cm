@@ -247,7 +247,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
         if (!AppOpsManager.isStrictEnable()) {
             Preference appOpsSummary = findPreference(KEY_APP_OPS_SUMMARY);
             if (deviceAdminCategory != null) {
-                deviceAdminCategory.removePreference(appOpsSummary);
+                // deviceAdminCategory.removePreference(appOpsSummary);
             }
         }
 
